@@ -6,4 +6,4 @@ On Windows:
 ```
 - pip install PyPDF2
 ```
-Use the above command for installing the required module on your directory path.
+Use the above command for installing the required module on your current directory path.
