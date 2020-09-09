@@ -1,7 +1,9 @@
 from PyPDF2 import PdfFileReader
 
+# Enter your pdf file location:
 file=open('C:/Users/Owner/Documents/Virtualization in cc.pdf', "rb")
 
+# Reads the file info
 reader=PdfFileReader(file)
 print("\nDocument INFO: ",(reader.getDocumentInfo()))
 
